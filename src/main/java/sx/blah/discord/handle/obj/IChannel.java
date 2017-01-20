@@ -357,7 +357,6 @@ public interface IChannel extends IDiscordObject<IChannel> {
 	void unpin(IMessage message) throws RateLimitException, DiscordException, MissingPermissionsException;
 
 	/**
-<<<<<<< HEAD
 	 * Gets the webhooks for this channel.
 	 *
 	 * @return The webhooks.
@@ -407,8 +406,6 @@ public interface IChannel extends IDiscordObject<IChannel> {
 	IWebhook createWebhook(String name, String avatar) throws MissingPermissionsException, DiscordException, RateLimitException;
 
 	/**
-=======
->>>>>>> austinv11/websocket-rewrite
 	 * Checks to see if the this channel is deleted.
 	 *
 	 * @return True if this channel is deleted.
